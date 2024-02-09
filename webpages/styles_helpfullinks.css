@@ -156,3 +156,41 @@ ul li:hover ul.dropdown {
 .highlight-section .info-text h2 {
     background-color: yellow;
 }
+
+#emergency-clinics .clinic-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#emergency-clinics .clinic-row {
+    display: table-row;
+}
+
+#emergency-clinics .clinic-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#emergency-clinics .clinic-name {
+    width: 30%;
+}
+
+#emergency-clinics .clinic-address {
+    width: 50%;
+}
+
+#emergency-clinics .clinic-phone {
+    width: 20%;
+}
+
+#emergency-clinics .clinic-cell h2, #emergency-clinics .clinic-cell p {
+    margin: 0;
+}
+
+#emergency-clinics .clinic-cell p b {
+    margin-right: 5px;
+    color: black;
+}
+
