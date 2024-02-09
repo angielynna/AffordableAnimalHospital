@@ -14,7 +14,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/background.png');
+  background-image: url('images/background2.png');
   background-size: cover;
   background-position: center;
   background-repeat: repeat-x; /* Repeat the background image only horizontally */
@@ -34,7 +34,8 @@ header {
 
 ul {
   list-style: none;
-  background: #ef8073;
+  background: #708090;
+  /*#ef8073*/
   margin: 0; 
   padding: 0;
 }
@@ -59,7 +60,7 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
   width: 100%;
-  background: #ef8073;
+  background: #708090;
   position: absolute;
   z-index: 999;
   display: none;
@@ -67,7 +68,7 @@ ul li ul.dropdown {
 }
 
 ul li a:hover { 
-  background: #e8484f;
+  background: #536878;
 }
 
 ul li:hover ul.dropdown {
@@ -97,9 +98,8 @@ ul li:hover ul.dropdown {
   font-size: 24px; /* Font size */
   padding: 10px; /* Padding */
   line-height: 1.4; /* Line height */
-  text-shadow: 2px 2px 4px lightcoral; /* Text shadow (horizontal offset, vertical offset, blur radius, color) */
+  text-shadow: 2px 2px 4px lightblue; /* Text shadow (horizontal offset, vertical offset, blur radius, color) */
 }
-
 
 .carousel-text h2 {
   font-size: 30px;
@@ -173,6 +173,7 @@ ul li:hover ul.dropdown {
   justify-content: space-around;
   margin: 20px;
   width: 100%;
+  flex-direction: row-reverse;
 }
 
 .info-image {
@@ -204,7 +205,7 @@ ul li:hover ul.dropdown {
 }
 
 .bottom-section {
-  background-color: #ef8073;
+  background-color: #708090;
   padding: 20px; /* Adjust padding as needed */
   color: #fff; /* Text color for the bottom section */
   display: flex;
