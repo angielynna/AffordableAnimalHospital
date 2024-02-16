@@ -75,6 +75,44 @@ ul li:hover ul.dropdown {
     display: block;
 }
 
+.info-section {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+    flex-direction: row-reverse;
+    max-width: 1200px; /* Adjust the maximum width of the info section */
+}
+
+.info-image {
+    max-width: 350px; /* Adjust the size of your images */
+    height: auto;
+    margin-right: 0; /* Adjust the margin to your preference */
+}
+
+.info-text {
+    flex: 1;
+    max-width: 600px; /* Adjust the width of the text container */
+    margin: 0; /* No margin */
+}
+
+/* Additional styles for the text container if needed */
+.info-text h2 {
+    color: black;
+}
+
+.info-text p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    color: white;
+    width: 100%;
+}
+
 .bottom-section {
     background-color: #708090;
     padding: 20px; /* Adjust padding as needed */
@@ -106,3 +144,24 @@ ul li:hover ul.dropdown {
 .highlight-section .info-text h2 {
     background-color: yellow;
 }
+
+/* Additional CSS for list transparency */
+.info-text ul {
+    background-color: transparent; /* Adjust the alpha value to change transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Additional CSS for list items */
+.info-text ul li {
+    margin-bottom: 5px; /* Add some space between list items */
+}
+
+/* Additional CSS for list items in Services and Vaccines sections */
+.info-text ul.services,
+.info-text ul.vaccines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
