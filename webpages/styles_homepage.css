@@ -216,7 +216,7 @@ ul li:hover ul.dropdown {
 
 .payment-methods img {
   width: auto;
-  height: 30px; /* Allow the height to adjust according to the width */
+  height: 45px; /* Allow the height to adjust according to the width */
 }
 
 .bottom-content {
