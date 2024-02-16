@@ -50,10 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (targetSectionId === "helpful-links") {
         // Redirect to the desired page (helpfullinkspage.html)
         window.location.href = "helpfullinkspage.html";
-      } else if (targetSectionId === "services") {
-        window.location.href = "servicespage.html";
-      } else if (targetSectionId === "products") {
-        window.location.href = "productspage.html";
+      } else if (targetSectionId === "servicesandproducts") {
+        window.location.href = "productsandservicespage.html";
       } else {
         event.preventDefault(); // Prevent default behavior of anchor tag
         highlightSection(targetSectionId);
