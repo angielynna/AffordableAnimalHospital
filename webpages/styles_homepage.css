@@ -174,10 +174,11 @@ ul li:hover ul.dropdown {
   margin: 20px;
   width: 100%;
   flex-direction: row-reverse;
+  max-width: 1200px; /* Adjust the maximum width of the info section */
 }
 
 .info-image {
-  max-width: 350px; /* Adjust the size of your images */
+  max-width: 400px; /* Adjust the size of your images */
   height: auto;
   margin-right: 0; /* Adjust the margin to your preference */
 }
