@@ -87,10 +87,10 @@ ul li:hover ul.dropdown {
 }
 
 .info-image {
-    max-width: 350px; /* Adjust the size of your images */
-    height: auto;
-    margin-right: 0; /* Adjust the margin to your preference */
-}
+    width: 300px; 
+    max-height: 350px;
+    margin-right: 0; 
+  }
 
 .info-text {
     flex: 1;
