@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
     helpfulLinks.forEach(link => {
       link.addEventListener("click", (event) => {
         const targetSectionId = link.getAttribute("href").substring(1);
-        if (targetSectionId === "carecredit" || targetSectionId === "petfinder" || targetSectionId === "poisoncontrol" || targetSectionId === "emergency-clinics") {
+        if(targetSectionId === "helpful-links") {
+            window.location.href = "helpfullinkspage.html";
+        } else if (targetSectionId === "carecredit" || targetSectionId === "petfinder" || targetSectionId === "poisoncontrol" || targetSectionId === "emergency-clinics") {
           event.preventDefault(); // Prevent default behavior of anchor tag
           window.location.href = 'helpfullinkspage.html?highlight=' + targetSectionId;
         }
@@ -62,21 +64,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
-
-// function searchFunction() {
-//     var input, filter, ul, li, a, i, txtValue;
-//     input = document.getElementById('searchInput');
-//     filter = input.value.toUpperCase();
-//     ul = document.querySelector('.bottom-nav');
-//     li = ul.getElementsByTagName('li');
-
-//     for (i = 0; i < li.length; i++) {
-//         a = li[i].getElementsByTagName("a")[0];
-//         txtValue = a.textContent || a.innerText;
-//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-//             li[i].style.display = "";
-//         } else {
-//             li[i].style.display = "none";
-//         }
-//     }
-// }
