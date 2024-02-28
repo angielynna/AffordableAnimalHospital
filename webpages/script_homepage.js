@@ -50,6 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
       if (targetSectionId === "helpful-links") {
         // Redirect to the desired page (helpfullinkspage.html)
         window.location.href = "helpfullinkspage.html";
+      } else if (targetSectionId === "helpful-links-carecredit") {
+        window.location.href = "helpfullinkspage.html?highlight=carecredit";
+      } else if (targetSectionId === "helpful-links-petfinder") {
+        window.location.href = "helpfullinkspage.html?highlight=petfinder";
+      } else if (targetSectionId === "helpful-links-poisoncontrol") {
+        window.location.href = "helpfullinkspage.html?highlight=poisoncontrol";
+      } else if (targetSectionId === "helpful-links-emergency") {
+        window.location.href = "helpfullinkspage.html?highlight=emergency";
       } else if (targetSectionId === "servicesandproducts") {
         window.location.href = "productsandservicespage.html";
       } else {
