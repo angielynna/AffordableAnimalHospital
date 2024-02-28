@@ -238,7 +238,7 @@ ul li:hover ul.dropdown {
   margin: 20px;
   width: 100%;
   flex-direction: row-reverse;
-  max-width: 1200px; /* Adjust the maximum width of the info section */
+  max-width: 1500px;
 }
 
 .info-image {
