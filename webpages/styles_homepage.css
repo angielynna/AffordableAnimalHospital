@@ -46,25 +46,6 @@ header {
   display: block;
 }
 
-.search-container {
-  display: flex;
-  align-items: center;
-}
-
-.search-container input[type="text"],
-.search-container button {
-  padding: 5px;
-  font-size: 16px;
-}
-
-.search-container button {
-  padding: 5px 10px;
-  cursor: pointer;
-  background-color: #536878;
-  color: white;
-  border: none;
-}
-
 body {
   margin: 0;
   position: relative;

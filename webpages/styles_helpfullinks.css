@@ -90,25 +90,6 @@ ul li ul.dropdown li {
     display: block;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-}
-
-.search-container input[type="text"],
-.search-container button {
-    padding: 5px;
-    font-size: 16px;
-}
-
-.search-container button {
-    padding: 5px 10px;
-    cursor: pointer;
-    background-color: #536878;
-    color: white;
-    border: none;
-}
-
 ul li ul.dropdown {
     width: 100%;
     background: #708090;
