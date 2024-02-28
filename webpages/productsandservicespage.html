@@ -8,25 +8,33 @@
     <script src="script_productspage.js" defer></script>
 </head>
 <body>
-<ul class="bottom-nav">
-    <li>
-        <a href="homepage.html">Homepage</a>
-        <ul class="dropdown">
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#contact-info">Contact Us</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="helpfullinkspage.html">Helpful Links</a>
-        <ul class="dropdown">
-            <li><a href="#">CareCredit</a></li>
-            <li><a href="#">PetFinder</a></li>
-            <li><a href="#">Poison Control</a></li>
-            <li><a href="#">Emergency Vet Clinics</a></li>
-        </ul>
-    </li>
-    <li><a href="productsandservicespage.html">Products and Services</a></li>
-</ul>
+    <header>
+        <div class="nav-container">
+            <ul class="bottom-nav">
+                <li>
+                    <a href="homepage.html">Homepage</a>
+                    <ul class="dropdown">
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact-info">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#helpful-links">Helpful Links</a>
+                    <ul class="dropdown">
+                        <li><a href="#">CareCredit</a></li>
+                        <li><a href="#">PetFinder</a></li>
+                        <li><a href="#">Poison Control</a></li>
+                        <li><a href="#">Emergency Vet Clinics</a></li>
+                    </ul>
+                </li>
+                <li><a href="productsandservicespage.html">Products and Services</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button onclick="searchFunction()">Search</button>
+            </div>
+        </div>
+    </header>   
 
 <section id="products" class="info-section">
     <img src="images/happypuppy.png" alt="Image 1" class="info-image">
