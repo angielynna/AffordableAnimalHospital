@@ -188,6 +188,7 @@ ul li:hover ul.dropdown {
   height: 100%;
   object-fit: cover;
   object-position: top center;
+  filter: blur(5px);
 }
 
 .slide[data-active] {
@@ -241,9 +242,9 @@ ul li:hover ul.dropdown {
 }
 
 .info-image {
-  width: 300px; /* Adjust the size of your images */
+  width: 300px; 
   max-height: 350px;
-  margin-right: 0; /* Adjust the margin to your preference */
+  margin-right: 0; 
 }
 
 .info-text {

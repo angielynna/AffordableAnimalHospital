@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "helpfullinkspage.html?highlight=poisoncontrol";
       } else if (targetSectionId === "helpful-links-emergency") {
         window.location.href = "helpfullinkspage.html?highlight=emergency";
-      } else if (targetSectionId === "servicesandproducts") {
+      } else if (targetSectionId === "servicesandproducts" || targetSectionId === "services-section") {
         window.location.href = "productsandservicespage.html";
       } else {
         event.preventDefault(); // Prevent default behavior of anchor tag
