@@ -142,7 +142,7 @@ ul li:hover ul.dropdown {
   font-size: 24px; /* Font size */
   padding: 10px; /* Padding */
   line-height: 1.4; /* Line height */
-  text-shadow: 2px 2px 4px lightblue; /* Text shadow (horizontal offset, vertical offset, blur radius, color) */
+  text-shadow: 2px 2px 4px #708090; /* Text shadow (horizontal offset, vertical offset, blur radius, color) */
 }
 
 .carousel-text h2 {
