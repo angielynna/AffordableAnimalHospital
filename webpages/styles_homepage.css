@@ -2,6 +2,69 @@
   box-sizing: border-box;
 }
 
+header {
+  background: #708090;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  position: relative;
+}
+
+.bottom-nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #536878;
+  padding: 10px;
+}
+
+.dropdown li {
+  display: block;
+}
+
+.bottom-nav li:hover .dropdown {
+  display: block;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"],
+.search-container button {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #536878;
+  color: white;
+  border: none;
+}
+
 body {
   margin: 0;
   position: relative;

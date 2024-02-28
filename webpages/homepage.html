@@ -8,48 +8,33 @@
     <script src="script_homepage.js" defer></script>
 </head>
 <body>
-    <ul class="bottom-nav">
-        <li>
-            <a href="#">Homepage</a>
-            <ul class="dropdown">
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#contact-info">Contact Us</a></li>
+    <header>
+        <div class="nav-container">
+            <ul class="bottom-nav">
+                <li>
+                    <a href="homepage.html">Homepage</a>
+                    <ul class="dropdown">
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact-info">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#helpful-links">Helpful Links</a>
+                    <ul class="dropdown">
+                        <li><a href="#">CareCredit</a></li>
+                        <li><a href="#">PetFinder</a></li>
+                        <li><a href="#">Poison Control</a></li>
+                        <li><a href="#">Emergency Vet Clinics</a></li>
+                    </ul>
+                </li>
+                <li><a href="productsandservicespage.html">Products and Services</a></li>
             </ul>
-        </li>
-        <li>
-            <a href="#helpful-links">Helpful Links</a>
-            <ul class="dropdown">
-                <li><a href="#">CareCredit</a></li>
-                <li><a href="#">PetFinder</a></li>
-                <li><a href="#">Poison Control</a></li>
-                <li><a href="#">Emergency Vet Clinics</a></li>
-            </ul>
-        </li>
-        <li><a href="#servicesandproducts">Products and Services</a></li>
-    </ul>
-    <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-        <ul data-slides>
-            <li class="slide" data-active>
-                <img src="images/happypuppy.png" alt="Image #1">
-                <div class="carousel-text">
-                    <h2>Affordable Animal Hospital</h2>
-                    <p>Tacoma, WA</p>
-                    <p>253-627-0005</p>
-                </div>
-            </li>
-            <li class="slide">
-                <img src="images/headtilt.png" alt="Image #2">
-                <div class="carousel-text">
-                    <h2>Affordable Animal Hospital</h2>
-                    <p>Tacoma, WA</p>
-                    <p>253-627-0005</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button onclick="searchFunction()">Search</button>
+            </div>
+        </div>
+    </header>    
 
     <section id="about-us" class="info-section">
         <img src="images/happypuppy.png" alt="Image 1" class="info-image">
