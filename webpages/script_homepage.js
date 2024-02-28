@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else if (targetSectionId === "helpful-links-poisoncontrol") {
         window.location.href = "helpfullinkspage.html?highlight=poisoncontrol";
       } else if (targetSectionId === "helpful-links-emergency") {
-        window.location.href = "helpfullinkspage.html?highlight=emergency";
+        window.location.href = "helpfullinkspage.html?highlight=emergency-clinics";
       } else if (targetSectionId === "servicesandproducts" || targetSectionId === "services-section") {
         window.location.href = "productsandservicespage.html";
       } else {

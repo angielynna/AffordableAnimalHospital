@@ -80,7 +80,7 @@ ul li:hover ul.dropdown {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 20px;
+    margin: 20px auto;
     width: 100%;
     flex-direction: row-reverse;
     max-width: 1500px; /* Adjust the maximum width of the info section */
