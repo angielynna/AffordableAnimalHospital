@@ -205,6 +205,7 @@ ul li:hover ul.dropdown {
 
 #emergency-clinics .clinic-phone {
     width: 20%;
+    text-shadow: 2px 2px 4px #708090;
 }
 
 #emergency-clinics .clinic-cell h2, #emergency-clinics .clinic-cell p {
