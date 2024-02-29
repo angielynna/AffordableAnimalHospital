@@ -51,11 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const targetSectionId = link.getAttribute("href").substring(1);
         // Check if the clicked link is the "Homepage" link
         if (targetSectionId === "homepage") {
-          // Redirect to homepage.html
-          window.location.href = "homepage.html";
+          // Redirect to index.html
+          window.location.href = "index.html";
         } else if (targetSectionId === "about-us" || targetSectionId === "contact-info") {
-          // Redirect to homepage.html and highlight the section
-          window.location.href = 'homepage.html#' + targetSectionId;
+          // Redirect to index.html and highlight the section
+          window.location.href = 'index.html#' + targetSectionId;
         } else {
           event.preventDefault(); // Prevent default behavior of anchor tag
           highlightSection(targetSectionId);

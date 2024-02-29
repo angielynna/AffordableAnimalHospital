@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
               // Highlight the selected section
               highlightSection(targetSectionId);
           } else if (targetSectionId === "homepage") {
-              // Redirect to homepage.html without highlighting any section
-              window.location.href = 'homepage.html';
+              // Redirect to index.html without highlighting any section
+              window.location.href = 'index.html';
           } else if (targetSectionId === "about-us" || targetSectionId === "contact-info") {
-              // Redirect to homepage.html and highlight the section
-              window.location.href = 'homepage.html?highlight=' + targetSectionId;
+              // Redirect to index.html and highlight the section
+              window.location.href = 'index.html?highlight=' + targetSectionId;
           }
       });
   });
